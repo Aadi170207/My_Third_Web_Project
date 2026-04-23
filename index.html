@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Web Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Advanced Web Project</h1>
+    <p>Responsive Design | Carousel | API Fetch</p>
+</header>
+
+<main>
+
+    <!-- IMAGE CAROUSEL -->
+    <section class="card">
+        <h2>Image Carousel</h2>
+        <div class="carousel">
+            <button onclick="prevImage()">❮</button>
+            <img id="carouselImage" src="https://picsum.photos/400/250?1" alt="Placeholder image from Picsum">
+            <button onclick="nextImage()">❯</button>
+        </div>
+    </section>
+
+    <section class="jokes">
+        <h2>😂 Random Joke</h2>
+        <p id="jokeText">Click the button to get a joke!</p>
+         <button id="jokeBtn">Get Joke</button>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Advanced Web Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
